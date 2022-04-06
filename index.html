@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header class="header position-fixed top-0 start-0 end-0 bg-white">
+    <div class="container-xxl">
+      <div class="header__top p-1 d-flex align-items-center bg-secondary">
+        <div class="header__slider ms-2">
+          <div class="slider d-inline-block p-2 rounded-circle bg-danger"></div>
+          <div class="slider d-inline-block p-2 rounded-circle bg-warning"></div>
+          <div class="slider d-inline-block p-2 rounded-circle bg-success"></div>
+        </div>
+        <p class="header__text mx-auto m-0">Telegram</p>
+      </div>
+
+      <div class="header__bottom row pt-2 pb-1 border-bottom">
+        <div class="col-12 col-sm-5 col-lg-3">
+          <form class="header-form d-flex align-items-center justify-content-between" action="https://echo.academy.ru" method="get">
+            <input class="header-form__input pe-3 pb-1 border-0 rounded-1" type="text" name="search" id="search" placeholder="Search">
+            <button class="header-form__btn d-flex border-0 bg-transparent" type="submit">
+              <img class="btn-img d-block" src="./img/search-btn.png" alt="search" width="38" height="29">
+            </button>
+          </form>
+        </div>
+
+        <div class="d-none d-sm-block col-sm-7 col-lg-6 p-0">
+          <p class="header-text-start m-0 fw-bold text-primary">Close</p>
+          <p class="header-text-end m-0 text-end">last seen 1 hour ago</p>
+        </div>
+
+        <div class="d-none d-lg-block col-lg-3 p-2 d-flex text-end">
+          <button class="header-btn border-0 bg-transparent">
+            <img class="btn-img d-block" src="./img/lupa.png" alt="Lupacha" width="15" height="15">
+          </button>
+          <p class="header-text-start m-0 mx-3 d-inline-block fw-bold text-primary">Edit</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="header-down container"></div>
+
+  <main class="site-main container-xxl">
+    <div class="row">
+      <section class="left-side col-12 col-sm-5 col-lg-3">
+        <ul class="left-side__list list-unstyled m-0 p-0">
+          <li class="left-side__item d-flex align-items-center p-1">
+            <img class="left-side__avatar rounded-circle me-4" src="./img/baikal.png" alt="avatar" width="50" height="50">
+            <div class="left-side__content">
+              <p class="chat-name m-0">Baikal Lake</p>
+              <p class="chat-text-top m-0">Nasty Markelova</p>
+              <p class="chat-text m-0 fw-bold">😚❤️ Thanks!</p>
+            </div>
+            <div class="left-side__end d-flex flex-column align-items-center ms-auto">
+              <p class="time">Wed</p>
+              <img class="pin" src="./img/pin.png" alt="pin" width="21" height="21">
+            </div>
+          </li>
+
+          <li class="left-side__item d-flex align-items-center p-1">
+            <img class="left-side__avatar rounded-circle me-4" src="./img/moscow.png" alt="avatar" width="50" height="50">
+            <div class="left-side__content overflow-hidden">
+              <p class="chat-name m-0">Moscow friends</p>
+              <p class="chat-text-top m-0">Olga Staroverova</p>
+              <p class="chat-text m-0 fw-bold">Does anyone …</p>
+            </div>
+            <div class="left-side__end d-flex flex-column align-items-center ms-auto">
+              <p class="time">Wed</p>
+            </div>
+          </li>
+
+          <li class="left-side__item d-flex align-items-center p-1 bg-primary">
+            <img class="left-side__avatar rounded-circle me-4" src="./img/evgenia.png" alt="avatar" width="50" height="50">
+            <div class="left-side__content">
+              <p class="chat-name m-0 text-white">Evgenia Markova</p>
+              <p class="chat-text m-0 text-white">https://journal...</p>
+            </div>
+            <div class="left-side__end d-flex flex-column align-items-center ms-auto">
+              <p class="time">Am</p>
+              <img class="pin" src="./img/pin.png" alt="pin" width="21" height="21">
+            </div>
+          </li>
+
+          <li class="left-side__item d-flex align-items-center p-1">
+            <img class="left-side__avatar rounded-circle me-4" src="./img/framer.png" alt="avatar" width="50" height="50">
+            <div class="left-side__content">
+              <p class="chat-name m-0">Framer Learning…</p>
+              <p class="chat-text m-0">joined the channel</p>
+            </div>
+            <div class="left-side__end d-flex flex-column align-items-center ms-auto">
+              <p class="time">Am</p>
+            </div>
+          </li>
+
+          <li class="left-side__item d-flex align-items-center p-1">
+            <img class="left-side__avatar rounded-circle me-4" src="./img/dribbble.png" alt="avatar" width="50" height="50">
+            <div class="left-side__content me-5">
+              <p class="chat-name m-0">Dribbble</p>
+              <p class="chat-text m-0">🌁 Photo</p>
+            </div>
+            <div class="left-side__end d-flex flex-column align-items-center ms-3 ms-auto">
+              <p class="time">Am</p>
+            </div>
+          </li>
+
+          <li class="left-side__item d-flex align-items-center p-1">
+            <img class="left-side__avatar rounded-circle me-4" src="./img/chat.png" alt="avatar" width="50" height="50">
+            <div class="left-side__content">
+              <p class="chat-name m-0">Chat functional</p>
+              <p class="chat-text-top m-0">Ksu Eremeeva</p>
+              <p class="chat-text m-0">2.If transfer will be…</p>
+            </div>
+            <div class="left-side__end d-flex flex-column align-items-center ms-auto">
+              <p class="time">Fri</p>
+            </div>
+          </li>
+
+          <li class="left-side__item d-flex align-items-center p-1">
+            <img class="left-side__avatar rounded-circle me-4" src="./img/evgenia.png" alt="avatar" width="50" height="50">
+            <div class="left-side__content">
+              <p class="chat-name m-0">Elena Mishel</p>
+              <p class="chat-text m-0">Hope you appr...</p>
+            </div>
+            <div class="left-side__end d-flex flex-column align-items-center ms-4 ms-auto">
+              <p class="time">Fri</p>
+            </div>
+          </li>
+
+          <li class="left-side__item d-flex align-items-center p-1">
+            <img class="left-side__avatar rounded-circle me-4" src="./img/baikal.png" alt="avatar" width="50" height="50">
+            <div class="left-side__content">
+              <p class="chat-name m-0">Daria Sobinova</p>
+              <p class="chat-text m-0"> Yeah, I think so be... </p>
+            </div>
+            <div class="left-side__end d-flex flex-column align-items-center ms-auto">
+              <p class="time">Fri</p>
+            </div>
+          </li>
+
+          <li class="left-side__item d-flex align-items-center p-1">
+            <img class="left-side__avatar rounded-circle me-4" src="./img/baikal.png" alt="avatar" width="50" height="50">
+            <div class="left-side__content">
+              <p class="chat-name m-0">Daria Sobinova</p>
+              <p class="chat-text m-0"> Yeah, I think so be... </p>
+            </div>
+            <div class="left-side__end d-flex flex-column align-items-center ms-auto">
+              <p class="time">Fri</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="chat d-none d-sm-block col-sm-7 col-lg-6">
+
+      </section>
+
+      <section class="emoji-list d-none d-lg-block col-lg-3">
+      </section>
+    </div>
+  </main>
+
+  <div class="upper-footer container-xxl"></div>
+  <footer class="footer container-xxl position-fixed bottom-0 start-0 end-0 bg-white">
+    <div class="row">
+      <div class="footer__left col-12 col-sm-5 col-lg-3 pt-2">
+        <ul class="footer__left-list d-flex align-items-center justify-content-between list-unstyled">
+          <li class="footer__left-item">
+            <img src="./img/icn_contacts.png" alt="icn_contacts" width="25" height="25">
+          </li>
+          <li class="footer__left-item">
+            <img src="./img/icn_chat.png" alt="icn_chat" width="29" height="24">
+          </li>
+          <li class="footer__left-item">
+            <img src="./img/icn_settings.png" alt="icn_settings" width="27" height="27">
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-center d-none d-sm-block col-sm-7 col-lg-6 p-0 py-2 d-sm-flex align-items-center justify-content-between">
+        
+        <form class="footer-form d-flex align-items-center" action="https://echo.htmlacademy.ru" method="get">
+          <button class="footer-btn border-0 bg-transparent">
+            <img class="d-block" src="./img/icn_attach.png" alt="icn_attach" width="18" height="19">
+          </button>
+
+          <input class="footer-form__input border-0 bg-transparent" type="text" name="massage" id="massage" placeholder="Write a message...">
+        </form>
+
+        <div class="emoji-speach d-flex align-items-center">
+          <buttun class="footer-btn mx-2">
+            <img class="btn-img d-block" src="./img/smile.png" alt="smile" width="22" height="22">
+          </buttun>
+          <buttun class="footer-btn mx-2">
+            <img class="btn-img d-block" src="./img/icn_speach.png" alt="speach" width="16" height="24">
+          </buttun>
+        </div>
+      </div>
+
+      <div class="d-none d-lg-block col-lg-3 p-2 d-flex text-end">
+        <ul class="footer__emoji-list d-flex align-items-center justify-content-between list-unstyled m-0 p-0 py-2 overflow-auto">
+          <li class="footer__emoji-item">
+            <button class="footer__emoji-btn border-0 bg-transparent">
+              <img class="btn-img-emoji d-block" src="./img/icn_clock.png" alt="emoji" width="20" height="20">
+            </button>
+          </li>
+
+          <li class="footer__emoji-item">
+            <button class="footer__emoji-btn border-0 bg-transparent">
+              <img class="btn-img-emoji d-block" src="./img/smile.png" alt="emoji" width="20" height="20">
+            </button>
+          </li>
+
+          <li class="footer__emoji-item">
+            <button class="footer__emoji-btn border-0 bg-transparent">
+              <img class="btn-img-emoji d-block" src="./img/icn_cat.png" alt="emoji" width="25" height="20">
+            </button>
+          </li>
+
+          <li class="footer__emoji-item">
+            <button class="footer__emoji-btn border-0 bg-transparent">
+              <img class="btn-img-emoji d-block" src="./img/icn_cat.png" alt="emoji" width="25" height="20">
+            </button>
+          </li>
+
+          <li class="footer__emoji-item">
+            <button class="footer__emoji-btn border-0 bg-transparent">
+              <img class="btn-img-emoji d-block" src="./img/icn_cat.png" alt="emoji" width="25" height="20">
+            </button>
+          </li>
+
+          <li class="footer__emoji-item">
+            <button class="footer__emoji-btn border-0 bg-transparent">
+              <img class="btn-img-emoji d-block" src="./img/icn_cat.png" alt="emoji" width="25" height="20">
+            </button>
+          </li>
+
+          <li class="footer__emoji-item">
+            <button class="footer__emoji-btn border-0 bg-transparent">
+              <img class="btn-img-emoji d-block" src="./img/icn_cat.png" alt="emoji" width="25" height="20">
+            </button>
+          </li>
+
+          <li class="footer__emoji-item">
+            <button class="footer__emoji-btn border-0 bg-transparent">
+              <img class="btn-img-emoji d-block" src="./img/icn_cat.png" alt="emoji" width="25" height="20">
+            </button>
+          </li>
+
+          <li class="footer__emoji-item">
+            <button class="footer__emoji-btn border-0 bg-transparent">
+              <img class="btn-img-emoji d-block" src="./img/icn_cat.png" alt="emoji" width="25" height="20">
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

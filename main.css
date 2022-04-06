@@ -1,0 +1,36 @@
+
+.header-form__input {
+  outline: none;
+  background-color: #F4F4F4;
+}
+
+.header-form__input::placeholder {
+  text-align: center;
+  font-size: 12px;
+}
+
+.header-text-start {
+  font-size: 14px;
+}
+
+.header-text-end {
+  font-size: 12px;
+}
+
+.header-down {
+  width: auto;
+  height: 85px;
+}
+
+.chat-text {
+  color: #999999;
+}
+
+.upper-footer {
+  width: auto;
+  height: 55px;
+}
+
+.footer-form__input {
+  outline: none;
+}
