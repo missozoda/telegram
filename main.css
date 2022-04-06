@@ -28,9 +28,13 @@
 
 .upper-footer {
   width: auto;
-  height: 55px;
+  height: 80px;
 }
 
 .footer-form__input {
   outline: none;
+}
+
+.text-abduzeedo {
+  width: 65%;
 }
